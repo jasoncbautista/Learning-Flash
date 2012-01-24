@@ -1,1 +1,1 @@
-﻿package com.frontend{    public class PostIt    {        public function PostIt()        {//            name = initialName;        }    }}
+﻿package com.frontend{	import flash.display.MovieClip;    public class PostIt extends MovieClip    {        public function PostIt()        {//            name = initialName;						graphics.beginFill( 0xff0000 , 1 );			graphics.drawCircle( 20 , 20 , 20 );			graphics.endFill( );			//			x = 20;			y = 20;			trace('hello world');        }    }}
