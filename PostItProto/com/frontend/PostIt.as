@@ -1,0 +1,1 @@
+﻿package com.frontend{    public class PostIt    {        public function PostIt()        {//            name = initialName;        }    }}
